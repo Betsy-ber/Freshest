@@ -1,0 +1,117 @@
+html body h1 h2 h3 body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 200px 0 10px 0;
+    border-bottom: white solid 1px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+h3 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 50px 10px 5px 15px;
+    font-weight: lighter;
+    border-bottom: white solid 2px;
+}
+.nav li {
+    display: inline
+}
+.nav a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    top: -65px;
+}
+.content {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.first-page {
+    background-color: pink;
+    background-image: url(HTMLimages/green-vegetables.jpg);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.Second-page {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.page {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.page h3 {
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.text1 img {
+    float: left;
+    padding-right: 45px;
+}
+.text2 img {
+    float: right;
+    top: 250px;
+    padding-left: 45px;
+}
+.text2 {
+    text-align: left;
+    margin-top: 350px;
+    padding-left: 45px;
+}
+.third-page {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.page3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.page3 h3 {
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.text3 img {
+    float: right;
+    padding-left: 45px;
+}
+.text3 {
+    margin-top: 0;
+    padding-left: 45px;
+}
+.text4 img {
+    float: left;
+    padding-right: 45px;
+}
+.text4 h3{
+    text-align: left;
+    margin-top: 250px;
+    padding-left: 45px;
+}
+.text4 p {
+    text-align: left;
+    padding-left: 45px;
+}
